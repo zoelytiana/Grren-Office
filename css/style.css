@@ -1,0 +1,95 @@
+/* Déclaration de police */
+@font-face {
+    font-family: "font";
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* GLOBAL */
+body {
+    font-size: 1.4em;
+    font-family: "font";
+    margin: 0 auto;
+    background-image: url("../img/fond.png");
+    background-repeat: repeat;
+    max-width: 750px;
+}
+
+main{
+    max-width: 750px;
+    background-color: white;
+}
+
+header{
+    background-image: url("../img/fond_header.png");
+    height: 180px;
+    padding-right: 25px;
+}
+
+.logo{
+    background-image: url("../img/logo.png");
+    width: 173px;
+    height: 123px;
+    margin: auto;
+    float: left;
+}
+
+.menu nav{
+    float: right;
+    color: gray;
+    text-decoration: underline;
+    padding-right: 20px;
+    }
+
+article h1 {
+    font-family: "font";
+    font-size: 1em;
+}
+
+article a {
+    color: #F2A1B1;
+    text-decoration: none;
+}
+
+p {
+    margin: 1em 0;
+    text-align: justify;
+    line-height: 50px;
+    text-indent: 25px;
+}
+
+article img {
+    float: left;
+    margin-right: 1em;
+    width: 100px;
+    height: 100px;
+    }
+
+ article nav {
+    text-decoration: none;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline ;
+    text-transform: uppercase;
+    }
+
+/* CITATIONS */
+q {
+    display: block;
+    font-size: 1.6em;
+    font-style: italic;
+    color: #666;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 3em;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    margin-bottom: 3em;
+}
+
+
